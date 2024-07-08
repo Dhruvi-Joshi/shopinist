@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+	margin: 0;
+	padding :0;
+	font-family: "poppins",sans-serif;
+}
+body{
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+	/*background: rgb(212,212,212);*/
+}
+.wrapper{
+	margin: auto;
+	display: flex;
+
+}
+.sidebar{
+	width:100px;
+	height:100vh;
+	background:#fff;
+}
+.sidebar ul{
+	margin-top:80px;
+}
+.sidebar ul li{
+	list-style:none;
+	text-align:center;
+}
+.sidebar ul li i{
+	margin:20px;
+	font-size:22px;
+	cursor:pointer;
+	color:rgb(83,82,82);
+}
+.sidebar li:hover,li.active{
+	border-right: 3px solid rgb(83,82,82);
+}
+.head{
+	display:flex;
+	padding: 20px 30px;
+}
+.head-title span{
+	font-size:14px;
+	/*color:#fff;*/
+	color: rgb(151,151,151);
+}
+.head-search{
+	width:400px;
+	margin-left:70%;
+}
+input{
+	border:none;
+	outline:none;
+	padding:7px 13px;
+	border-radius:15px;
+}
+
+.card-board{
+	display:flex;
+	padding:15px 40px;
+}
+.card{
+	width:230px;
+	height:100px;
+	padding:20px;
+	background:#fff;
+	margin-right:20px;
+	border-radius:10px;
+}
+.card-icon{
+	display:flex;
+}
+.card-icon i{
+	margin: 15px 0;
+	cursor: pointer;
+	font-size: 20px;
+	margin-right:10rem;
+	color: rgb(83,82,82)
+}
+.card span{
+	font-size:12px;
+	color:rgb(151,151,151);
+}
+
+.card h5{
+	margin-top:5px;
+}
+
+.balance{
+	width:87%;
+	margin: 0 50px;
+	background: #fff;
+	padding: 20px 30px;
+	border-radius: 10px;
+}
+.balance-details{
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+}
+.topic{
+	font-size:20px;
+	font-weight:500;
+}
+.balance-details li{
+	list-style:none;
+	margin:8px 0;
+}
+.balance-details li a{
+	font-size:18px;
+	color:#333;
+	font-size:20;
+	text-decoration:none;
+}
+
+form button{
+	margin-top:5px;
+	border:none;
+	background:linear-gradient(135deg, #71b7e6, #9b59b6);
+	color:#222;
+	padding:5px 0;
+	width:100%;
+	font-size:10px;
+	font-weight:800;
+	cursor:pointer;
+	border-radius:3px;
+}
+
+.model-box{
+	background-color:var(--black);
+	max-width:380px;
+	width:100%;
+}

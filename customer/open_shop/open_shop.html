@@ -1,0 +1,108 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width==device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3YwScVb3ZcuHtOA93W35dYTsvhLPVnYs9eStHfGJv0vKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <title>shop name</title>
+  <link rel="stylesheet" href="styleopen.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script>
+     $(document).ready(function(){
+	    $('.showprompt').click(function(){
+		   $('.pop_box').css({
+		      "opacity":"1","pointer-events":"auto"
+		   });
+		});
+		$('.btn1').click(function(){
+		   $('.pop_box').css({
+		        "opacity":"0","pointer-events":"auto" 
+				
+		   });
+	    });
+		
+		$('.btn2').click(function(){
+		   $('.pop_box').css({
+		        "location.href":"D:\D2D\sem-4\DE\protocol\Shopkeeper\dashboard\index.html"
+		   });
+	    });
+		
+		$('.btn3').click(function(){
+		   $('.pop_box').css({
+		          "opacity":"0","pointer-events":"auto" 
+		   });
+	    });
+	 });
+  </script>
+</head>
+<body>
+   <div class="wrapper">
+      <div class="sidebar">
+        <ul>
+		   <li><a href="\DE\Customer\daskboard\dash.php"><i><img src="\DE\Logos\first.png" width="40" height="40"></a></i></li>
+		   <li class="active"><i><img src="\DE\Logos\in_shop.jpg" width="40" height="40"></i></li>
+		   <li><i><img src="\DE\Logos\profile.png"width="40" height="40"></i></li>
+		   <li><i><img class="showprompt" src="https://static.vecteezy.com/system/resources/previews/000/450/402/original/vector-add-icon.jpg"width="40" height="40"></i></li>
+		   <div class="pop_box">
+		      <h1>please enter code:</h1>
+			  <div class="btns">
+			    <a href="D:\D2D\sem-4\DE\protocol\Customer\open_shop\open_shop.html" style="text-decoration: none;" class="btn1">add</a>
+				<a href="D:\D2D\sem-4\DE\protocol\Customer\open_shop\open_shop.html" style="text-decoration: none;" class="btn2">scan</a>
+				<a href="#" style="text-decoration: none;" class="btn3">cancel</a>
+			   </div>
+		   </div>
+		   <li><i><img src="https://www.shareicon.net/data/2016/11/14/852469_history_512x512.png"width="40" height="40"></i></li>
+		   <li><i><img src="https://cdn3.iconfinder.com/data/icons/sales-and-delivery-1/128/favourite_item-256.png"width="40" height="40"></i></li>
+		    <li><i><img src="https://www.pngplay.com/wp-content/uploads/1/Online-Shopping-Cart-PNG-Background-Image.png"width="40" height="40"></i></li>
+		   <li><i><img src="\DE\Logos\setting.png"width="40" height="40"></i></li>
+		   <li><i><a href="D:\D2D\sem-4\DE\protocol\LOGIN\index.html"><img src="\DE\Logos\logout.png"width="40" height="40"></a></i></li> 
+		</ul>
+      </div>
+	    <div class="main">
+		 <!--<div class="head">
+		  <div class="head-title">
+		    <h2 style="color:white;">Dashboard</h2>
+			<span></span>
+		  </div>
+		   <div class="head-search">
+		     <input type="search" placeholder="search">
+		 </div> -->
+	 </div>
+	 <div class="main-board">
+	  <div class="card-board"><br><br>
+	    <div class="card"><a href="D:\D2D\sem-4\DE\protocol\Customer\search_product\search_product.html" style="text-decoration: none;">
+		    <div class="card-icon">
+			   <i><img src="https://botw-pd.s3.amazonaws.com/onlineshopping.png"width="60" height="50"></i>
+			   <!-- <i><img src="https://cdn2.iconfinder.com/data/icons/neutro-essential/32/more-vertical-512.png"width="40" height="40"></i>-->
+			</div>
+			<span></span>
+			<h5>product</h5></a>
+		</div>
+		 <div class="card"><a href="D:\D2D\sem-4\DE\protocol\Customer\feedback\feedback.html" style="text-decoration: none;">
+		    <div class="card-icon">
+			   <i><img src="https://th.bing.com/th/id/R.385585c287a8c8277aecb47f2726ea18?rik=6eQZpCbh7ajUAQ&riu=http%3a%2f%2fwww.nhstaysidecdn.scot.nhs.uk%2fNHSTaysideWeb%2fgroups%2fcommunications%2fdocuments%2fdocuments%2fprod_217610.jpg&ehk=HYYMUHA4vaKWDKXzZg9lvHSDsboCmTKIuDgscBiB5vw%3d&risl=&pid=ImgRaw&r=0"width="40" height="40"></i>
+			     <!-- <i><img src="https://cdn2.iconfinder.com/data/icons/neutro-essential/32/more-vertical-512.png"width="40" height="40"></i>-->
+			</div>
+			<span></span>
+			<h5>Feedback</h5></a>
+		</div>
+		 <div class="card"><a href="D:\D2D\sem-4\DE\protocol\Customer\rating\rating.html" style="text-decoration: none;">
+		    <div class="card-icon">
+			   <i><img src="https://www.aaaina.com/wp-content/uploads/2021/03/high-rating-color-icon-vector-29051354-Copy-790x402.jpg"width="60" height="40"></i>
+			     <!--<i><img src="https://cdn2.iconfinder.com/data/icons/neutro-essential/32/more-vertical-512.png"width="40" height="40"></i>-->
+			</div>
+			<span></span>
+			<h5>Rating</h5>
+		</div>
+		<div class="card"><a href="#" style="text-decoration: none;">
+		    <div class="card-icon">
+			   <i><img src="https://cdn2.iconfinder.com/data/icons/finance-business-8/32/Bill-Paid-Payment-tick-512.png"width="40" height="40" text-align:center;></i>
+			     <!-- <i><img src="https://cdn2.iconfinder.com/data/icons/neutro-essential/32/more-vertical-512.png"width="40" height="40"></i>-->
+			</div>
+			<span></span>
+			<h5>Bills</h5></a>
+		</div>
+	  </div>
+	  </body>
+	
+	   
